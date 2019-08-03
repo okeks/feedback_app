@@ -22,8 +22,8 @@ class App extends React.Component {
     this.chooseVideo = this.chooseVideo.bind(this);
   }
   chooseVideo(newVideo) {
-    this.state({
-      src: VIDEOS.newVideo
+    this.setState({
+      src: VIDEOS[newVideo]
     });
   }
 
@@ -31,7 +31,7 @@ class App extends React.Component {
     return (
       <div>
         <h1>Video Player</h1>
-        <Menu />
+        <Menu chooseVideo={this.chooseVideo} />
         <Video src={this.state.src} />
       </div>
     );
