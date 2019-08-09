@@ -1,0 +1,50 @@
+span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.material-icons {
+  font-size: 150px;
+}
+[data-credit-card] {
+  width: 435px;
+  min-height: 240px;
+  border-radius: 10px;
+  background-color: #5d6874;
+}
+[data-card-type] {
+  display: block;
+  width: 120px;
+  height: 60px;
+}
+[data-cc-digits] {
+  margin-top: 2em;
+}
+[data-cc-digits] input {
+  color: white;
+  font-size: 2em;
+  line-height: 2em;
+  border: 0;
+  background: none;
+  margin-right: 0.5em;
+}
+[data-cc-info] {
+  margin-top: 1em;
+}
+[data-cc-info] input {
+  color: #fff;
+  font-size: 1.2em;
+  border: 0;
+  background: none;
+  padding-right: 10px;
+}
+[data-cc-info] input[size="6"] {
+  padding-right: 10px;
+  float: right;
+}
+[data-pay-btn] {
+  position: fixed;
+  width: 90%;
+  border-style: solid;
+  border-width: 1px;
+  bottom: 20px;
+}
